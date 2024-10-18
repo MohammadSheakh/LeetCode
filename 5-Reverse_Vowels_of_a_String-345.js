@@ -1,3 +1,5 @@
+//  [Two Pointer , String ]
+
 var reverseVowels = function (s) {
   console.log("=============================================");
   let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]; //"aeiouAEIOU"
