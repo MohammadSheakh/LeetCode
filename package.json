@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "start": "nodemon problem3.js",
+    "dev": "nodemon problem3.js"
+  }
+}
