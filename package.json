@@ -3,7 +3,7 @@
     "nodemon": "^3.1.7"
   },
   "scripts": {
-    "start": "nodemon problem3.js",
+    "start": "nodemon LeetCode-75/7-Product_of_Array_Except_Self-238.js",
     "dev": "nodemon problem3.js"
   }
 }
