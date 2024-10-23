@@ -1,2 +1,0 @@
-// medium
-// Array, Greedy
