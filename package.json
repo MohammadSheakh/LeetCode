@@ -3,7 +3,7 @@
     "nodemon": "^3.1.7"
   },
   "scripts": {
-    "start": "nodemon LeetCode-75/9-M-String_Compression-443.js",
+    "start": "nodemon LeetCode-75/10-E-Move_Zeroes-283.js",
     "dev": "nodemon problem3.js"
   }
 }

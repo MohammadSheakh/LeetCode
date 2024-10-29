@@ -35,6 +35,22 @@ element should go.
 */
 
 var Move_Zeroes = function (numbers) {
-  return index;
+  let index = 0; // position to place next non zero element
+  // first pass : move all the non-zero element to the front
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] !== 0) {
+      numbers[index] = numbers[i];
+      index++;
+    }
+  }
+
+  // second pass : fill the remaining positions with 0
+  for (let i = index; i < numbers.length; i++) {
+    numbers[i] = 0;
+  }
+
+  // Return the modified array
+  return numbers;
 };
 console.log("Move_Zeroes([0,1,0,3,12]) :: ", Move_Zeroes([0, 1, 0, 3, 12])); // Output: true or false ..
+// Move_Zeroes([0,1,0,3,12]) ::  [ 1, 3, 12, 0, 0 ]
