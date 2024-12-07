@@ -1,0 +1,96 @@
+00:00 - Intro
+00:42 - What is DSA
+3:53 - Course Requirements
+4:40 - Course Setup
+6:46 - Solving the first problem
+10:07 - Why Should I Care
+10:58 - What is bigO
+13:48 - O(n)
+20:11 - O(1)
+23:48 - O(n^2)
+29:37 - O(log n)
+33:55 - DS Arrays
+34:26 - What is DS Array
+36:05 - Creating Custom Array
+37:42 - Custom Push Method
+41:20 - Custom Get Method
+43:05 - Custom Pop Method
+46:30 - Custom Shift Method
+51:17 - Custom DeleteByIndex Method
+54:35 - Reverse String
+59:31 - Palindromes
+1:02:30 - Reverse Integer
+1:05:57 - Sentence Capitalization
+1:10:23 - FizzBuzz
+1:14:06 - Max Profit 
+1:20:41 - Array Chunks
+1:26:18 - Two Sum ( ugly code )
+1:30:01 - What is Linked List
+1:33:01 - How the Linked List Looks Like
+1:36:05 - Creating Our First Linked List
+1:40:01 - Linked List Push Method
+1:45:24 - Linked List Pop Method
+1:52:42 - Linked List Unshift Method
+1:56:51 - Linked List Shift Method
+1:59:44 - Linked List GET FIRST Method
+2:00:53 - Linked List GET LAST Method
+2:03:05 - Linked List GET ELEMENT BY INDEX Method
+2:06:15 - Linked List SET Method
+2:10:33 - Linked List INSERT Method
+2:17:31 - Linked List SIZE Method
+2:19:18 - Linked List CLEAR Method
+2:20:17 - What is Doubly Linked List
+2:21:34 - Create Your First Doubly Linked List
+2:23:06 - Doubly Linked List Push Method
+2:26:43 - Doubly Linked List Pop Method
+2:30:47 - Doubly Linked List Unshift Method
+2:34:43 - Doubly Linked List Shift Method
+2:37:38 - Reverse Linked List
+2:45:32 - Stack & Queues
+2:46:20 - What is a Stack
+2:49:36 - Creating Our First Stack
+2:52:01 - Stack Push Method
+2:55:29 - Stack Pop Method
+2:58:49 - What is Queue
+3:00:38 - Queues Enqueue Method
+3:06:14 - Queues Dequeue Method
+3:09:36 - Queues Min Method
+3:14:22 - isValidParenthesis
+3:19:05 - Reverse String Using Stack
+3:22:08 - Hash Tables
+3:22:21 - What is a Hash Table
+3:23:30 - What is a Hash Function
+3:24:29 - How Hash Table Looks Like
+3:26:11 - Creating Our First Hash Table
+3:29:27 - Hash Table Set Method
+3:34:02 - Hash Table Get Method
+3:38:37 - Get All Keys & Values
+3:43:01 - Word Counter
+3:47:15 - Two Sum ( refactor )
+3:51:06 - What is a Tree
+3:55:36 - BST
+4:00:27 - Creating Our First Binary Search Tree
+4:02:15 - Binary Search Tree Insert Method
+4:08:36 - Binary Search Tree Includes Method
+4:15:42 - What is Recursion
+4:17:11 - Recursion Count Down
+4:20:19 - Recursion Factorial
+4:23:11 - Tree Traversal ( Breath First Search )
+4:31:56 - Tree Traversal ( Depth First Search PreOrder )
+4:41:41 - Tree Traversal ( Depth First Search PostOrder )
+4:50:32 - What is a Graph
+4:55:38 - Creating Our First Graph
+4:56:23 - Add Vertex To Graph
+4:58:36 - Add Edges To Graph
+5:01:21 - Remove Edges From Graph
+5:04:50 - Remove Vertex From Graph
+5:09:33 - What is Bubble Sort
+5:12:03 - Creating Bubble Sort
+5:15:06- What is Selection Sort
+5:19:33 - Creating Selection Sort
+5:22:20 - What is Insertion Sort
+5:24:48 - Creating Insertion Sort
+5:27:18 - What is Merge Sort
+5:29:15 - Creating Merge
+5:35:44 - Creating Merge Sort
+5:38:32 - Outro
