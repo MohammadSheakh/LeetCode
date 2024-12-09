@@ -1,4 +1,4 @@
-// FileName : AllInOne/3-reverseString/prob1.js
+// FileName : AllInOne/3-reverse/reverseString.js
 
 /**
   * @NEW_TOPIC <!-- Reverse String    -->
@@ -22,7 +22,7 @@ const reverseString = (str) => str.split("").reverse().join("");
 console.log(reverseString("Hello")); // output : olleH
 
 /**
-  * @Next <!-- Palindromes   -->
+  * @Next <!-- 4-Palindromes   -->
   |
   |--> If the reversed string is equal to the original one .. 
   | then that word is a palindrome. 

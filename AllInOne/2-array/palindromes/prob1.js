@@ -1,4 +1,4 @@
-// FileName : AllInOne/3-reverseString/prob1.js
+// FileName : AllInOne/4-palindromes/prob1.js
 
 /**
     * @NEW_TOPIC <!-- Palindromes   -->
@@ -22,8 +22,12 @@
   |
  */
 
+const palindrome = (str) => str.split("").reverse().join("") === str;
+
+console.log(palindrome("cddc")); // output: true
+
 /**
-    * @Next <!--    -->
+    * @Next <!--  Reverse Integer  -->
     |
     |--> 
     |
