@@ -119,4 +119,25 @@ class DoublyLinkedList {
     this.length--;
     return temp;
   }
+
+  /**
+  * @NEW_TOPIC <!--  Reverse Linked List  -->
+  |
+  | -> 
+ */
+  reverse() {
+    let temp = this.head;
+    this.head = this.tail; // point last element to head
+    this.tail = temp; // point head to tail
+    // create two new pointer
+    let next = temp;
+    let prev = null;
+    for (let i = 0; i < this.length; i++) {
+      next = temp.next;
+      temp.next = prev;
+      temp.prev = next;
+      prev = temp;
+      temp = next;
+    }
+  }
 }
