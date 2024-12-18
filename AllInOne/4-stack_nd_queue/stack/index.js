@@ -43,4 +43,27 @@ class Stack {
     this.length--;
     return temp;
   }
+
+  /**
+  * @NEW_TOPIC <!--  Minimum Value in the Stack  -->
+  |
+  | -> 
+ */
+
+  min() {
+    if (this.length === 0) {
+      return undefined;
+    }
+    let current = this.first;
+    let minValue = current.value;
+
+    // iterate over throw entire stack
+    while (current.next) {
+      current = current.next;
+      if (current < minValue) {
+        minValue = current.value;
+      }
+    }
+    return minValue;
+  }
 }
