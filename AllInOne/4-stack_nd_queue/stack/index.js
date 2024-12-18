@@ -27,6 +27,12 @@ class Stack {
     return this;
   }
 
+  /**
+  * @NEW_TOPIC <!--  Pop First Element  -->
+  |
+  | -> 
+ */
+
   pop() {
     if (this.length === 0) {
       return undefined;
