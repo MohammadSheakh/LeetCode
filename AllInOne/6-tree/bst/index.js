@@ -65,7 +65,22 @@ class BST {
   | -> Search for specific node in entire tree ..
  */
 
-  include() {}
+  includes(value) {
+    if (!this.root) {
+      return false; // we can not search for anything
+    }
+    let temp = this.root; // here root if first node
+    while (temp) {
+      if (value < temp.value) {
+        temp = temp.left; // temp is now pointing to that left node of root
+      } else if (value > temp.value) {
+        temp = temp.right;
+      } else if (value === temp.value) {
+        return true;
+      }
+    }
+    return false;
+  }
 }
 
 /**
