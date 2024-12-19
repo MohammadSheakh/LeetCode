@@ -3,7 +3,7 @@
     "nodemon": "^3.1.7"
   },
   "scripts": {
-    "alt": "nodemon AllInOne/3-linked_list/singly_linked_list.js",
+    "alt": "nodemon AllInOne/5-hash_table/problem/two-sum.js",
     "all": "nodemon AllInOne/4-palindromes/prob1.js",
     "75": "nodemon LeetCode-75/10-E-Move_Zeroes-283.js",
     "30": "nodemon LeetCode-JS-30-Days/",
