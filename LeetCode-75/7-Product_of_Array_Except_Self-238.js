@@ -10,7 +10,6 @@ var productExceptSelf = function (nums) {
 
     for (let i = 0; i < n; i++) {
         answer[i] = prefix;
-
         prefix *= nums[i];
     }
 
@@ -21,7 +20,7 @@ var productExceptSelf = function (nums) {
         suffix *= nums[i];
         console.log("answer[i] :: ", answer[i]);
     }
-
+  
     // console.log("length of n :: ", answer);
     return answer;
 };
