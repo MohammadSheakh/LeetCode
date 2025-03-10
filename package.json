@@ -5,7 +5,7 @@
   "scripts": {
     "alt": "nodemon AllInOne/∞-extra/recursion/factorial.js",
     "all": "nodemon AllInOne/4-palindromes/prob1.js",
-    "75": "nodemon LeetCode-75/10-E-Move_Zeroes-283.js",
+    "75": "nodemon LeetCode-75/14-E-Maximum_Average_Subarray-643.js",
     "30": "nodemon LeetCode-JS-30-Days/",
     "150": "nodemon LeetCode-Top-Interview-150/",
     "dev": "nodemon problem3.js"
