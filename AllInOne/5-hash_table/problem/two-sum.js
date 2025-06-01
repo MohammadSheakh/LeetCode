@@ -7,8 +7,10 @@ function twoSum(nums, target) {
   for (let i = 0; i < nums.length; i++) {
     const compliment = target - nums[i];
     if (compliment in numMap && numMap[compliment] !== i) {
+      // return the solution
       return [numMap[compliment], i];
     }
+    // if we dont find the solution, we update the hash map
     numMap[nums[i]] = i;
   }
   return [];
