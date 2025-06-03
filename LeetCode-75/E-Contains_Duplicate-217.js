@@ -23,13 +23,26 @@
         | so we just need to iterate through the array once 
         time complexity o(n log n)
         space complexity O(1) // as we dont need any extra memory
-  | 4.
-  | 5.  
-  | 6. 
+  
+   | 4. hashset .. 
+  | 5.  o(n) time complexity
+  | 6.  // we need extra memory for hashset
   | 7. 
   | 
  */
   
+  /* @Solution <!--    -->
+      create a hashset 
+      iterate through the array
+      if current number is already in hashset
+            // that means we have a duplicate
+            return true
+      else
+          // we dont have a duplicate
+        add current number to hashset
+      return false 
+   * ********* */
+
   /**
       * @Next <!--    -->
       |
