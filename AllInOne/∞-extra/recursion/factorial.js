@@ -22,6 +22,7 @@ console.log(factorial(5)); // 120
   |
   | -> arrow function
  */
+console.log("hello2")
 
 const factoriaL = (number) =>
   number === 0 ? 1 : number * factorial(number - 1);
