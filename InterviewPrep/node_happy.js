@@ -716,284 +716,34 @@
  */
 
 /**
-  * @NEW_TOPIC <!--  -->
+  * @NEW_TOPIC <!-- Error Handling ? how many ways you can do error handling in node js -->
+
+    Error handling is the process of managing errors that occur during the execution of a program or system 
+
+    4 ways to implement error handling in node js 
+    |-> 1. Try-Catch Blocks: Used to catch synchronous errors in code execution.
+    |-> 2. Promises and .catch(): Used to handle asynchronous errors in promise
+    |-> 3. Async/Await with Try-Catch: Used to handle asynchronous errors in async functions. 
+            
+            Error first call back (Async )
+            ========================
+            Error first callback is a convention in Node.js where the first argument of a callback function is reserved for an error object.
+            If an error occurs, it is passed as the first argument, and the second argument contains the result.
+            This convention allows developers to handle errors in a consistent manner across asynchronous operations.
+            
+
+    |-> 4. Error Event Listeners: Used to handle errors emitted by event emit
+    |-> 5. Error Middleware in Express: Used to handle errors in Express applications.
+    |-> 6. Global Error Handlers: Used to catch unhandled errors in the application.
+    |-> 7. Custom Error Classes: Used to create custom error types for better error
+    |-> 8. Logging Errors: Used to log errors for debugging and monitoring purposes.
+     
 
 
     @Next <!--    -->
     
  */
 
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
 
 /**
   * @NEW_TOPIC <!--  -->
@@ -1122,9 +872,6 @@
   
  */
   
-
-
-
 
   /**
       * @Next <!--    -->
