@@ -30,7 +30,7 @@
   | 7. 
   | 
  */
-  
+   
   /* @Solution <!--    -->
       create a hashset 
       iterate through the array
