@@ -20,3 +20,34 @@ const nums = [2, 7, 11, 15];
 const target = 9;
 
 console.log(twoSum(nums, target)); // output : [0, 1]
+
+
+// FileName : LeetCode-75/.js
+// Neetcode Link : 
+/**
+  * @NEW_TOPIC <!--  -->
+  |
+  | ->  
+ */
+
+/**
+  * @Steps <!--    -->
+  |
+  |--> 1. In our hashmap, we are gonna be mapping the value to the index
+  | 
+  | 
+ */
+  
+  /* @Solution <!--  Sudo Code  -->
+      
+   * ********* */
+
+  /**
+      * @Next <!--    -->
+      |
+      | ->> 
+      | 
+      +----------
+      | Ex: 
+     */
+  
