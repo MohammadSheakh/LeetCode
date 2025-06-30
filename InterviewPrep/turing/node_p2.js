@@ -188,7 +188,153 @@
     or hash tables, and it can significantly improve the performance of search operations in large datasets.
     
     /****************** 
+     * range axis search is a great way to structure test cases. It Prescribe an order of operation
+     * Steps Are ...
+      1. first step is to arrange inputs and targets 
+       set up the test case 
+       if test require any object or special settings . if needs to prepare database or if it needs to log in a web app
+        you should handle all of these operations at the start of the test 
+        and this is done in a range step
+      2. to act on the target behavior, x steps should cover the main thing to test it . this could be calling a function 
+       or a method, calling a rest api or interacting with a web page.  this can one of these..
+       and we are keeping these actions focused on the target behavior
+      3. to assert expected outcomes
+      4. next step is some sort of response .. research steps verify the goodness or badness of their response 
+
+      sometimes assertions are as simple as checking numerical other time they may require checking multiple facets
+      of a system 
+
+      5. assertions will ultimately determine if the test passes or fail
+
+    @Next <!--    -->
+    
+ */
+
+/**
+  * @NEW_TOPIC <!-- Node js also has a couple timing features, timing functions that allow us to schedule processing ..
+                  what are the timing functions available in node js  -->
+  *  -->
+
+    timer module is an essential part of node js and it has some function for some different purposes. 
+    1. set timeout : 
+
+    2. clear timeout : 
+
+    they can be used to schedule code execution after a designated amount of milliseconds. and of course set timeout does this
+    and clear timeout clear the timeout 
+
+    we have 3. set interval : 4. clear interval :
+
+    they can be used to execute a block of code multiple times like bouncing and 
+    
+    we have 5. set immediate : and 6.  clear immediate : 
+
+    thy will execute code at the end of the current event loop cycle, allowing other code to run first.
+
+    we have 7. next tick : 
+
+    it is a special function that allows us to schedule code execution at the end of the current event loop cycle,
+    similar to set immediate, but with a higher priority. It is often used to ensure that
+    certain code runs before any other code in the event loop, allowing for immediate execution of critical
+    tasks without waiting for the next event loop cycle.
+
+    //// i have these .. if there are more please tell me .... 
+
+    @Next <!--    -->
+    
+ */
+
+/**
+  * @NEW_TOPIC <!-- what is EPC in node js -->
+
+
+    @Next <!--    -->
+    
+ */
+
+/**
+  * @NEW_TOPIC <!-- What is the difference between child process spawn and execute function in node js .. and when to use
+  *  each one  -->
+  
+    spawn child or execute child are two methods provided by the child_process module in Node.js to create child processes.
+    The main difference between the two is how they handle the input and output of the child process.
+    The spawn method is used to create a new child process and execute a command in it. It returns a ChildProcess object
+    that can be used to interact with the child process. The spawn method is typically used for
+    long-running processes or when you need to handle large amounts of data from the child process.
+
+    The exec method, on the other hand, is used to execute a command in a child process and buffer the output.
+    It returns a ChildProcess object that can be used to interact with the child process, but
+    it buffers the output of the command and returns it as a string when the command completes.
+    The exec method is typically used for short-lived processes or when you only need to capture the output of the command
+    without needing to interact with it in real-time.
+
+    /*********** 
+      for spawn, it doesnt spawn a shell  and exec spawns a shell and executes the command in it.
+
+      spawn streams the data returned by the child process and data flow is constant.
+      in exact it buffers the data and waits till the process closes and transfers the data in one chunk. 
+    
+      spawn has no data transfer size limit. because its like a stream. it has a maximum transfer size limit of 1MB.
+      spawn is a command designated to run system commands, spawn is more suitable for long-running processes
+      with huge output
+
+      we use exec if we need such features as shell pipes, redirects, even we need exec for more than one program
+
+     
+    @Next <!--    -->
+    
+ */
+
+/**
+  * @NEW_TOPIC <!-- Why should we separate the express app in the server -->
+
+    this is because actually the server is responsible for initializing the routes, middlewares and other application logic.
+    express app has all the business logic, which will be solved by the rules initiated by the server. Why we are separating ,
+    because separating them ensures that the business logic is encapsulated and decoupled from the application logic .
+    which makes the project more maintainable and readable. also good for testing . because you just need to load the express
+    and you can run any server you can test your application there
+
+
+    
+
+    /////////////////////
+    By separating the express app from the server, we can keep the server code clean and focused
+    on handling the server-related tasks, such as starting the server, handling requests, and managing
+    the application lifecycle. This separation also allows for better organization of the codebase,
+    making it easier to maintain and test the application. Additionally, separating the express app from the
+    server allows for better scalability and flexibility, as we can easily swap out the express app with
+    a different framework or library if needed, without affecting the server code. Overall, separating the
+    express app from the server is a best practice in Node.js development that helps improve code organization
+    and maintainability.
+
+
+    @Next <!--    -->
+    
+ */
+
+/**
+  * @NEW_TOPIC <!-- What is the reactor pattern in node js -->
+
+    reactor pattern is a design pattern used in event-driven programming to handle events and
+    callbacks in a non-blocking manner. It is commonly used in Node.js applications to manage
+    asynchronous operations and handle events efficiently.
+
+    The reactor pattern works by using an event loop to listen for events and callbacks, and then
+    dispatching those events to the appropriate handlers. When an event occurs, the reactor pattern
+    invokes the corresponding callback function to handle the event. This allows for efficient handling
+    of multiple events and callbacks without blocking the execution of the program.
+
+    /**************** 
      * 
+     Reactor pattern is a pattern for non-blocking io operations.. but in general this is used in any event driven architecture. 
+
+     there are two component here named reactor and handler. 
+
+     reactor dispatches the io event to appropriate handler. and handler actually works on those events. 
+     we have couple design part which is you can work with as a event emitter right, so in one hand subscriber 
+
+     in one hand you have the event and your other hand you have the handler .. when you fire event .. handler will be 
+     notified 
 
 
     @Next <!--    -->
@@ -196,48 +342,20 @@
  */
 
 /**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
+  * @NEW_TOPIC <!-- Whats the difference between read file and create read stream in node js -->
     
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
+    read file process actually is a fully buffered process that returns the response only one ..
+    the complete file is push into the buffer and its completely read and as you can guess this is a memory 
+    intensive process .. because it has all the data in a file .. and if we are working with a large file ..
+    this can not be preferred actually.. 
 
 
-    @Next <!--    -->
-    
- */
+    Create Read Stream is a partially buffered process that threats entire process as an event series .. 
+    so, the entire file is a bit into chunks and then processed and then sent back the response one by one 
 
-/**
-  * @NEW_TOPIC <!--  -->
+    after completing this step they are finally removed from the buffer unlike it is done in read file .. 
 
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
-
-    @Next <!--    -->
-    
- */
-
-/**
-  * @NEW_TOPIC <!--  -->
-
+    so the create read stream process is more effective when we are processing large files .. 
 
     @Next <!--    -->
     
