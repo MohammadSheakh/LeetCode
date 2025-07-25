@@ -1,3 +1,8 @@
+[Video Link](https://www.youtube.com/watch?v=tp8JIuCXBaU&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=21)
+
+
+[Note](https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/)
+
 arr[] = [0, 1, 2, 0, 1, 2, 2,1, 2, 0, 0, 1]
 
 
@@ -34,7 +39,7 @@ lets think about time complexity
  
 ---
 
-#### Optimal Solution 
+#### Optimal Solution -- 5:16
 
 ```
 Dutch National Flag Algorithm
@@ -43,34 +48,16 @@ this algo using 3 pointers .. low, mid, high
 
 algo revolving around 3 rules 
 
-+ [0 .. low-1]  0 
++ [0 .. low-1] ➡️ 0  extreme left 
++ [low .. mid-1] ➡️ 1   
++ [high .. n-1] ➡️ 2 extreme right
 
 
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```ts
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-==very important words==
-
-term
-: definition 
 - [x] Write the press release
-[^ref1]: Example Reference.
+
+[^ref1]: reference
+
+[Need Emoji](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
