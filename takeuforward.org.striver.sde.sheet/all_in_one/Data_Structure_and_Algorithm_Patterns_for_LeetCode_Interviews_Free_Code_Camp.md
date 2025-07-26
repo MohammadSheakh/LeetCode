@@ -3,8 +3,7 @@
 
 >  
 
-[^➡️1] :Array
-
+[^➡️1]
 
 ####  Array 
  ➡️
@@ -32,6 +31,7 @@ middle
 + compare elements form both end
 + **sliding window**, **prefix sum** etc
 
+[^➡️1]:Array
 
 ---
 
