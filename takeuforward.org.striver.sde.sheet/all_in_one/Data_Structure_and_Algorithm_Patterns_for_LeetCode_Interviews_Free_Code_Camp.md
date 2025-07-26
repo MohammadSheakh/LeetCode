@@ -36,8 +36,8 @@ middle
 
 ---
 
-[^➡️2]
-[^➡️2]:String
+[^@2] 
+[^@2]:String➡️
 ####  String 
  ➡️
 
@@ -97,8 +97,9 @@ they are about smart windowing, fast lookups, and efficient traversal
 ```
 ---
 
-[^➡️3]
-[^➡️3]:Sets
+[^@3] 
+[^@3]:Sets➡️
+
 ####  Sets 
  ➡️
 
@@ -160,8 +161,8 @@ which is much faster than looping through the entire list
 
 ---
 
-[^➡️x]
-[^➡️x]:TopicName
+[^@x] 
+[^@x]:TopicName➡️
 ####  TopicName 
  ➡️
 
