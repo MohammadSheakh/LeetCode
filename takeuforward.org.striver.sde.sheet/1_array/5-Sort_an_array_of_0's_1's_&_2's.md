@@ -50,8 +50,9 @@ algo revolving around 3 rules
 
 + [0 .. low-1] ➡️ 0  extreme left 
 + [low .. mid-1] ➡️ 1   
-+ [high .. n-1] ➡️ 2 extreme right
++ [high+1 .. n-1] ➡️ 2 extreme right
 
+>>>>>>>>>> 6:17
 
 ```
 

@@ -303,7 +303,7 @@ helps us avoid nested loop or repeated scanning ..
 
 > After Seeing a problem .. which is using bruteforce ( checking all pair or scanning repeatedly ) .. like n^2 loop ...
 can we do that in one loop .. from both side or one pass .. 
-
+ 
 
 ```ts 
 function isPalindrome(s) {
@@ -356,6 +356,46 @@ const result = isPalindrome(s);
 console.log(result); // Output: true
 
 ```
+
+
+---
+
+[^@7] 
+[^@7]:Sliding Window➡️
+
+####  Sliding Window
+ ➡️
+
+##### 
+
+
+```
+in stead of track of just two positions.. you are managing
+an entire range of values... this range is what we called 
+window . 
+
+in any given moment .. you only interested in what inside
+the window .. you dont care anything before or after the 
+window .. 
+
+you are looking at the subset of the data .. adjusting the
+window as needed .. never revisited the same element twice .. 
+
+```
+
+> Types   
+>- [x] Fixed sized window
+>- [x] Dynamic window .. window can shrink or expand as needed
+
++ Fixed sized window 
+  + Find the maximum average of any subarray of size k
+  + Return the sum of every k-length block
+  + Find the subarray of length k with the largest/
+    smallest X.
+
+> for these problems window size never changes ..
+ you always include exactly k element      
+
 
 
 
