@@ -26,3 +26,23 @@ https://www.youtube.com/watch?v=PnQY02QQrYQ
 
 
 ```
+
+#### 1. Name Three SOLID PRINCIPLES
+```
+S -> Single Responsibility 
+L -> Liscove Substitution
+O -> Open Close
+I -> Interface Segregation
+D -> Dependency Injection
+
+```
+
+https://www.youtube.com/watch?v=7iHl71nt49o
+#### Need to watch this video .. Must 
+
+![ ](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
