@@ -29,11 +29,17 @@ https://www.youtube.com/watch?v=PnQY02QQrYQ
 
 #### 1. Name Three SOLID PRINCIPLES
 ```
-S -> Single Responsibility 
+S -> Single Responsibility Principle
 L -> Liscove Substitution
 O -> Open Close
 I -> Interface Segregation
 D -> Dependency Injection
+
+```
+
+#### 1. What are MicroServices
+```
+
 
 ```
 
