@@ -3,7 +3,7 @@
 
 ```ts
 
-programming language. dev by microsoft..  
+strongly typed programming language. dev by microsoft..  
 add some nice feature on top of javascript .. 
 new syntax and types... 
 ```
@@ -55,8 +55,30 @@ but they can be intersected to create new types
 
 But now can we extend types also .. 
 
+interface User {
+    id:number;
+    name? : string
+}
+
+const user : User = {
+    id: 1
+}
+
+function getName = (user : User) => {
+    return user.name
+}
+
+getName(user);
+
+----------------------------------------
+
+Lets Talk about Type
+
 ```
 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 ---
 ####  . What are generic Type in TS
 
@@ -128,12 +150,35 @@ Overall, ambient declarations in TypeScript enable better type-checking and tool
 ####  . 
 
 ```ts
+const foo :string = "FOo";
+
+const users: Array<{id:number; name:string}> = [{id:1,name:"a"}];
+
+
+const users1: {id:number; name:string}[] = [{id:1,name:"a"}];
+
+// same thing .. 
+
+```
+
+---
+####  . write a function getFullName which gets name and surname and returns a full name 
+
+```ts
+
 
 
 ```
 
 
+---
+####  . What is union in Typescript 
 
+```ts
+
+
+
+```
 
 
 
