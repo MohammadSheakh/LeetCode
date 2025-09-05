@@ -125,3 +125,4 @@ same property then they are the same thing from  for typescript
 ```
 
 
+![alt text](image.png)
