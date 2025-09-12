@@ -41,7 +41,7 @@ protected -- that class and sub classes can access that
 ```ts
 Js already have some different type .. like string, object etc
 
-types that we can define ..
+in ts we have tuples , and types that we can define ..
 also interfaces that can be used as type kind of thing
 
 ```
@@ -114,6 +114,8 @@ unknown requires you to perform type checking before performing any operations o
 
 never ->  
 When you assign a type never, you cannot reassign it to any other type, including an object.
+
+lets say i declare a variable .. never .. i assign integer .. can i assign string to this 
 ```
 
 ---
