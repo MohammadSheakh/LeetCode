@@ -227,19 +227,99 @@ db.customers.aggregate([
             as : "customer"
         },
         {
-            $unwind: "$customer",
+            $unwind: "$customer", // convert nested array to top level document for every item
         },
         {
             $project: {
                 item:1,
                 store: 1,
                 customerName: "$customer.name",
-                date: 1
+                date: 1,
+                _id:0 // dont show this
             }
         }
     }
 ]) 
 
-// 29:22
+//⌛ 29:22
 
 ```
+
+---
+#### 10. How can I list sales where the customers has loyalty true ?
+
+
+```ts
+
+db.customers.aggregate([
+    {
+        $lookup{
+            from : "customers",
+            localField : "customer_id",
+            foreignField : "_id",
+            as : "customer"
+        },
+        {
+            $unwind: "$customer", // convert nested array to top level document for every item
+        },
+        {
+            $match:{
+                "$customer.loyalty" : true
+            }
+        }
+        // Rest Project ... 
+    }
+]) 
+
+```
+
+---
+#### 10. How do I get total quantity sold grouped by whether the customer is loyal or not ?
+
+group by customer loyalty ... calculate total quantity
+
+```ts
+
+db.sales.aggregate([
+    {
+        $lookup{
+            from : "customers",
+            localField : "customer_id",
+            foreignField : "_id",
+            as : "customer"
+        },
+        {
+            $unwind: "$customer", // convert nested array to top level document for every item
+        },
+        {
+            $group:{
+                //_id : null // this will take entire collection
+                _id: "$customer.loyalty",
+                totalQuantity : {
+                    $sum : "$quantity"
+                }
+
+            }
+        }
+    }
+]) 
+
+```
+
+---
+#### 10. How can I get total quantity sold per day ?
+
+bring date into grouping .. 
+
+```ts
+
+db.sales.aggregate([
+    {
+        
+    }
+]) 
+
+//⌛ 35: 10 https://www.youtube.com/watch?v=p934Gm7kj_Q&t=1870s
+
+```
+
