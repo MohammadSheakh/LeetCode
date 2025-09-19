@@ -1,0 +1,17 @@
+
+stateDiagram-v2
+
+    [*] --> Request
+    Request --> node_js_event_queue
+
+    node_js_event_queue --> event_loop : "watch that queue and Event Loop picks up the task"
+    event_loop --> node_js_thread_pool : "If task is async (blocking) and needs more time"
+    event_loop --> V8_engine : "If task is sync (non-blocking) and can be done quickly"
+    node_js_thread_pool --> event_loop : "Once async task is done"
+    V8_engine --> event_loop : "Once sync task is done"
+    event_loop --> Response : "Sends response back to client"
+    Response --> [*]
+
+
+
+
